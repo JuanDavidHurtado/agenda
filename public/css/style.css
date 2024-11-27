@@ -1,0 +1,149 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Estilos de los enlaces en el menú */
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el área principal */
+main {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Estilos para el formulario */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos para los botones */
+form button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los mensajes de error */
+form span {
+    color: red;
+    display: none;  /* Se oculta por defecto */
+    font-size: 12px;
+    margin-top: 5px;
+    grid-column: span 2;
+}
+
+/* Estilos para las etiquetas */
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+form input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+form input:focus {
+    border-color: #007BFF;
+}
+
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #e0f7fa;
+    transition: background-color 0.3s ease;
+}
+
+table td a:hover {
+    background-color: #b2ebf2;
+}
+
+/* Estilo para el contenedor de búsqueda */
+.search-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.search-container input {
+    width: 50%;
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.search-container input:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+
